@@ -1,0 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cu113 
+torch
+torchvision
+diffusers==0.6.0
+transformers==4.23.1
+ftfy
+numpy
+matplotlib
+uuid
+opencv-python
+git+https://github.com/openai/CLIP.git
+scipy
+matplotlib-base
+pip
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.0+cpu
+torchvision==0.11.1+cpu    
+opencv-python
+git+https://github.com/openai/CLIP.git
+git+https://github.com/cvlab-yonsei/JoEm
+git+https://github.com/Jia-Research-Lab/PFENet.git
+git+https://github.com/ChenyunWu/PhraseCutDataset.git
+git+https://github.com/juhongm999/hsnet.git
